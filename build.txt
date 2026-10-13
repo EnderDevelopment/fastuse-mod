@@ -1,0 +1,26 @@
+@echo off
+
+REM Build the mod using Gradle
+call gradlew build
+
+REM Check if the build was successful
+if %ERRORLEVEL% neq 0 (
+    echo Build failed
+    pause
+    exit /b %ERRORLEVEL%
+)
+
+REM Copy the mod file to the Minecraft mods folder
+set MOD_FILE=build/libs/fastusemod-1.0.0.jar
+set MINECRAFT_MODS_DIR=%APPDATA%\.minecraft\mods
+
+if exist "%MOD_FILE%" (
+    copy "%MOD_FILE%" "%MINECRAFT_MODS_DIR%"
+    echo Mod file copied to Minecraft mods folder
+) else (
+    echo Mod file not found
+    pause
+    exit /b 1
+)
+
+pause

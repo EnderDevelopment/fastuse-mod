@@ -1,0 +1,16 @@
+{
+  "item.fastusemod.ender_pearl": "FastUse Ender Pearl",
+  "item.fastusemod.wind_charge": "FastUse Wind Charge",
+  "item.fastusemod.snowball": "FastUse Snowball",
+  "item.fastusemod.egg": "FastUse Egg",
+  "item.fastusemod.splash_potion": "FastUse Splash Potion",
+  "item.fastusemod.lingering_potion": "FastUse Lingering Potion",
+  "item.fastusemod.experience_bottle": "FastUse Experience Bottle",
+  "config.fastusemod.title": "FastUseMod Settings",
+  "config.fastusemod.activation_key": "Activation Key",
+  "config.fastusemod.item_category_toggles": "Item Category Toggles",
+  "config.fastusemod.use_delay": "Use Delay",
+  "config.fastusemod.hold_mode": "Hold Mode",
+  "config.fastusemod.toggle_mode": "Toggle Mode",
+  "config.fastusemod.smart_mode": "Smart Mode"
+}
